@@ -17,6 +17,10 @@ Developed in Python for Katana, specifically designed to style and customize nod
 
 1. Copy the Python script and the `gradientStyler.png` file.
 2. Navigate to your Katana configuration folder. On Windows, the default location is: C:\Users<YourUsername>\.katana\Shelves\Python
+3. After Paste you will find the tool in the shelftool
+
+![shelf](https://github.com/user-attachments/assets/85bfe474-82de-441e-9f33-ed82907275b1)
+
 
 # How it works
 
