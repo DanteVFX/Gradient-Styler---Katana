@@ -21,7 +21,9 @@ Developed in Python for Katana, specifically designed to style and customize nod
 
 ![shelf](https://github.com/user-attachments/assets/85bfe474-82de-441e-9f33-ed82907275b1)
 
-4. In the line 53 of the code you need to paste the fullpath of the image (gradientStyler.png)
+4. You will need to modify the code on line 53 by pasting the full path to the gradientStyler.png image. The path will vary depending on your computer.
+   
+![code](https://github.com/user-attachments/assets/2b7c3b51-bedd-4ad7-803a-cd97fbafba49)
 
 # How it works
 
