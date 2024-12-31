@@ -33,11 +33,11 @@ class GradientColorNodes(QtWidgets.QWidget):
         super().__init__()
 
         # Give name to the Window
-        self.setWindowTitle("Gradient Styler v001")
+        self.setWindowTitle("Gradient Styler v.1.0")
         self.setWindowFlags(self.windowFlags() |
                             QtCore.Qt.WindowStaysOnTopHint)
 
-        self.setFixedSize(400, 100)
+        self.setFixedSize(400, 150)
         self.build_layout()
 
     def build_layout(self):
@@ -46,6 +46,18 @@ class GradientColorNodes(QtWidgets.QWidget):
         """
         lyt = QtWidgets.QVBoxLayout()
         self.setLayout(lyt)
+
+        # Create a Qlaberl to display the image
+        image_label = QtWidgets.QLabel()
+        pixmap = QtGui.QPixmap(
+            "Paste your path /gradient_Styler_v001.png")
+        pixmap = pixmap.scaled(
+            400, 50, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
+        image_label.setPixmap(pixmap)
+        image_label.setAlignment(QtCore.Qt.AlignCenter)
+
+        # Agregar el QLabel al layout principal antes del primer HBox
+        lyt.addWidget(image_label)
 
         color_buttons_layout = QtWidgets.QHBoxLayout()
 
